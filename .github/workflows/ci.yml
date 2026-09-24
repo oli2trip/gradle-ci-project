@@ -36,7 +36,7 @@ jobs:
 #       Matrix: 
 #         os: [ubuntu-latest, windows-latest, macOS-latest]
 
-# now we build the docker image
+# now we build the docker image.
     - name: Build and Push Docker Image
       uses: serversideup/github-action-docker-build@v6
       with:
